@@ -97,7 +97,7 @@ nav {
 
 .promo {
   min-height: 800px;
-  background: url("../img/Layer_3.jpg"), center center/cover no-repeat;
+  background: url("../img/Layer_3.jpg") center center/cover no-repeat;
   padding-top: 150px;
   padding-bottom: 135px; }
   .promo_header {
@@ -506,14 +506,9 @@ footer {
     width: 300px; }
 
   .mobile_item {
-    width: 300px; }
+    width: 290px; }
     .mobile_item_subtitle {
-      font-size: 20px; }
-
-  .footer_social {
-    width: 300px; }
-  .footer_links {
-    width: 310px; } }
+      font-size: 20px; } }
 @media (max-width: 991px) {
   .menu_item {
     padding-right: 8px; }
@@ -546,7 +541,41 @@ footer {
             align-items: center; }
   .reasons_descr {
     width: 300px;
-    margin-top: 20px; } }
+    margin-top: 20px; }
+
+  .title {
+    font-size: 28px; }
+
+  .choice {
+    min-height: 800px; }
+
+  .world {
+    min-height: 650px; }
+
+  .choice_img {
+    width: 100%; }
+
+  .footer_wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+
+  .footer_wrapper > div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px; }
+
+  .footer_wrapper > div:nth-child(1) {
+    width: 100%; }
+
+  .footer_wrapper > div:nth-child(3) {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 @media (max-width: 767px) {
   .menu {
     position: fixed;
