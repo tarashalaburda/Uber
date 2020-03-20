@@ -90,10 +90,11 @@ nav {
     text-transform: uppercase;
     text-align: center;
     text-shadow: 0.707px 0.707px 0px rgba(0, 0, 0, 0.21); }
-    .subheader_btn:hover {
+    .subheader_btn:hover, .subheader_btn:focus {
       background-image: none;
       background-color: gold;
-      color: black; }
+      color: black;
+      outline-style: none; }
 
 .promo {
   min-height: 800px;
@@ -139,10 +140,11 @@ nav {
     text-transform: uppercase;
     text-align: center;
     text-shadow: 0.707px 0.707px 0px rgba(0, 0, 0, 0.21); }
-    .promo_btn:hover {
+    .promo_btn:hover, .promo_btn:focus {
       background-image: none;
       background-color: gold;
-      color: black; }
+      color: black;
+      outline-style: none; }
 
 .reasons {
   padding: 71px 0 65px 0; }
@@ -685,6 +687,9 @@ footer {
       height: 22px;
       font-size: 10px;
       margin-top: 6px; }
+      .subheader_btn:hover {
+        background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+        background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%); }
 
   .promo {
     padding: 80px 0 35px 0;
@@ -704,9 +709,18 @@ footer {
       width: 210px;
       height: 50px;
       margin-top: 72px; }
+      .promo_btn:hover {
+        background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+        background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%); }
 
   .menu {
     width: 85%; }
+    .menu_item {
+      width: 100%;
+      padding: 5px 0; }
+    .menu_link {
+      display: block;
+      text-align: center; }
 
   .reasons {
     padding: 22px 0 36px 0; }
